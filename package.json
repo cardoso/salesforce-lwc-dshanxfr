@@ -2,6 +2,7 @@
     "private": true,
     "name": "@lwc/playground",
     "version": "8.13.1",
+    "packageManager": "pnpm@10.2.1",
     "type": "module",
     "description": "Playground project to experiment with LWC.",
     "scripts": {
@@ -15,14 +16,5 @@
         "rollup": "^4.34.1",
         "rollup-plugin-livereload": "^2.0.5",
         "rollup-plugin-serve": "^3.0.0"
-    },
-    "nx": {
-        "targets": {
-            "build": {
-                "outputs": [
-                    "{projectRoot}/dist"
-                ]
-            }
-        }
     }
 }
